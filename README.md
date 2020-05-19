@@ -19,5 +19,5 @@ kubectl create clusterrolebinding spark-role --clusterrole=edit --serviceaccount
 
 ## 4. 部署例子
 ```
-kubectl apply -f 
+kubectl apply -f https://raw.githubusercontent.com/yu3peng/spark-on-k8s-operator/master/examples/spark-py-pi.yaml
 ```
