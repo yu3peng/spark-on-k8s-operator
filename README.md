@@ -12,7 +12,7 @@ mv linux-amd64/helm /usr/local/bin/
 ```
 helm repo add incubator http://storage.googleapis.com/kubernetes-charts-incubator
 kubectl create namespace spark-operator
-helm install incubator/sparkoperator --namespace spark-operator -name-template spark
+helm install incubator/sparkoperator --namespace spark-operator --name-template spark
 kubectl create serviceaccount spark 
 kubectl create clusterrolebinding spark-role --clusterrole=edit --serviceaccount=default:spark --namespace=default
 ```
