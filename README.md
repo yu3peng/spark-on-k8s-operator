@@ -7,7 +7,6 @@
 ### 1.2 在 kata 中直接使用 Kubernetes Playgroud
 登录 [Kubernetes Playgroud](https://katacoda.com/courses/kubernetes/playground) 使用，本实践采用此种方式进行。
 
-
 ## 2. 安装 Helm 3
 ```
 cd /opt && wget https://get.helm.sh/helm-v3.1.0-linux-amd64.tar.gz
